@@ -1,0 +1,25 @@
+#slider {
+  width: 20%;
+  margin: 30px auto;
+  height: 30vh;
+  border: 2px solid red;
+  position: relative;
+}
+#slider img {
+  width: 256px;
+  height: 220px;
+}
+#slider .next, #slider .prev {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: red;
+  font-size: 30px;
+  cursor: pointer;
+}
+#slider .next.next, #slider .prev.next {
+  right: 20px;
+}
+#slider .next.prev, #slider .prev.prev {
+  left: 20px;
+}/*# sourceMappingURL=style.css.map */

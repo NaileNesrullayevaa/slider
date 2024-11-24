@@ -1,0 +1,28 @@
+#slider{
+    width: 20%;
+    margin: 30px auto;
+    height: 30vh;
+    border: 2px solid red;
+    position: relative;
+    img{
+        // width: 1182px;
+        // height: 442px;
+        // object-fit: cover;
+        width: 256px;
+        height: 220px;
+    }
+    .next,.prev{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        color: red;
+        font-size: 30px;
+        cursor: pointer;
+        &.next{
+            right: 20px;
+        }
+        &.prev{
+            left: 20px;
+        }
+    }
+}
